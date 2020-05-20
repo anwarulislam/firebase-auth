@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "probashi"
+  },
+  "targets": {
+    "probashi-45495": {
+      "hosting": {
+        "probashi": [
+          "probashi"
+        ]
+      }
+    }
+  }
+}

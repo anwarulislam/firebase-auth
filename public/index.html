@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome to Probashi Authentication</title>
+
+  <!-- Firebase ui -->
+  <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+  <!-- update the version number as needed -->
+  <!-- <script defer src="/__/firebase/7.14.0/firebase-app.js"></script> -->
+  <!-- include only the Firebase features as you need -->
+  <!-- <script defer src="/__/firebase/7.14.0/firebase-auth.js"></script> -->
+  <!-- <script defer src="/__/firebase/7.14.0/firebaseui.js"></script> -->
+  <!-- initialize the SDK after all desired features are loaded -->
+  <!-- <script defer src="/__/firebase/init.js"></script> -->
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="message">
+    <div style="text-align: center;">
+      <h2 id="msg">Probashi Authentication</h2>
+    </div>
+    <a href="#" id="logout" style="display: none;">Logout</a>
+    <pre id="res"></pre>
+    <div id="firebaseui-auth-container"></div>
+  </div>
+
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+
+  <script src="auth.js"></script>
+</body>
+
+</html>
